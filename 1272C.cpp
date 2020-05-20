@@ -26,7 +26,8 @@ int main(){
        }
    }
     if(len)
-    sub += (len)*((len+1)/2);
+    sub += (len*(len+1))/2;
+    
     cout<<sub<<endl;
     
    return 0;
