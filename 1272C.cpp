@@ -21,7 +21,7 @@ int main(){
        if(alpha[j[i] - 'a'])
        len++;
        else{
-           sub += (len)*((len+1)/2);
+           sub += (len*(len+1))/2;
            len =0; 
        }
    }
